@@ -1,5 +1,4 @@
 "use client";
-import PaginationFilter from "@/components/PaginationFilter";
 import Search from "@/components/Search";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -51,9 +50,6 @@ const page = () => {
             ))}
         </tbody>
       </Table>
-      <div>
-        <PaginationFilter />
-      </div>
     </div>
   );
 };
