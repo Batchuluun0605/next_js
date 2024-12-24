@@ -1,3 +1,11 @@
-export default function Home() {
-  return <div>Home page</div>;
-}
+import SnowFall from "@/components/SnowFall";
+
+const page = () => {
+  return (
+    <div>
+      <SnowFall />
+    </div>
+  );
+};
+
+export default page;
